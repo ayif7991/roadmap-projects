@@ -1,0 +1,72 @@
+/* Basic Styles for the HTML Website */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3, h4 {
+    color: #333;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Projects Page Styles */
+.projects-section {
+    margin: 20px;
+}
+
+.projects-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.projects-section li {
+    margin: 10px 0;
+}
+
+/* Articles Page Styles */
+.articles-section {
+    margin: 20px;
+}
+
+/* Contact Page Styles */
+.contact-section {
+    margin: 20px;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section label {
+    margin: 5px 0;
+}
+
+.contact-section input, .contact-section textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-section input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-section input[type="submit"]:hover {
+    background-color: #0056b3;
+}
